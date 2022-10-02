@@ -16,12 +16,3 @@ const number_of_equivalent_domino_pairs = (arr: number[][]) => {
 
   return res;
 };
-
-console.log(
-  number_of_equivalent_domino_pairs([
-    [1, 2],
-    [2, 1],
-    [3, 4],
-    [5, 6],
-  ])
-);
